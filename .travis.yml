@@ -13,6 +13,15 @@ matrix:
   fast_finish: true
 
   include:
+    - python: 2.7
+      env: TOX_ENV=style
+
+    - python: 2.7
+      env: TOX_ENV=mypy
+
+    - python: 2.7
+      env: TOX_ENV=pytest
+
     - python: 3.6
       env: TOX_ENV=style
 

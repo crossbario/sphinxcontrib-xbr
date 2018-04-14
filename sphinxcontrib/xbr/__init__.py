@@ -8,9 +8,7 @@
     :license: BSD, see LICENSE for details.
 """
 
-from __future__ import absolute_import
-
-import pbr.version
+from .._version import __version__
 
 import re
 
@@ -43,8 +41,6 @@ if False:
     # For type annotations
     from typing import Any, Dict  # noqa
     from sphinx.application import Sphinx  # noqa
-
-__version__ = pbr.version.VersionInfo('xbr').version_string()
 
 logger = logging.getLogger(__name__)
 
