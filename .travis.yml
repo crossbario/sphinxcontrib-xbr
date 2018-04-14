@@ -16,8 +16,9 @@ matrix:
     - python: 2.7
       env: TOX_ENV=style
 
-    - python: 2.7
-      env: TOX_ENV=mypy
+    # mypy requires python>=3.4
+    #- python: 2.7
+    #  env: TOX_ENV=mypy
 
     - python: 2.7
       env: TOX_ENV=pytest
