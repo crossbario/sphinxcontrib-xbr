@@ -9,3 +9,7 @@ requirements:
 
 test:
 	tox .
+
+# auto-format code - WARNING: this my change files, in-place!
+autoformat:
+	yapf -ri sphinxcontrib
