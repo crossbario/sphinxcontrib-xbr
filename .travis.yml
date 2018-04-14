@@ -1,0 +1,23 @@
+language: python
+
+sudo: false
+
+install:
+  - pip install tox
+
+script:
+  - tox -c tox.ini -e $TOX_ENV
+
+matrix:
+
+  fast_finish: true
+
+  include:
+    - python: 3.6
+      env: TOX_ENV=style
+
+    - python: 3.6
+      env: TOX_ENV=mypy
+
+    - python: 3.6
+      env: TOX_ENV=pytest
