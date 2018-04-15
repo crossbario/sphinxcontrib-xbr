@@ -1,13 +1,13 @@
+XBR IDL for Sphinx
+==================
+
+| |Version| |Build Status| |Docs|
+
 .. image:: xbr-idl-logo.png
     :width: 246px
     :align: left
     :height: 246px
     :alt: XBR IDL for Sphinx
-
-XBR IDL for Sphinx
-==================
-
-| |Version| |Build Status| |Docs|
 
 Overview
 --------
@@ -36,7 +36,7 @@ Links
 .. |Version| image:: https://img.shields.io/pypi/v/sphinxcontrib-xbr.svg
    :target: https://pypi.python.org/pypi/sphinxcontrib-xbr
 
-.. |Build Status| image:: https://travis-ci.org/xbr/sphinxcontrib-xbr?branch=master
+.. |Build Status| image:: https://travis-ci.org/xbr/sphinxcontrib-xbr.svg?branch=master
    :target: https://travis-ci.org/xbr/sphinxcontrib-xbr
 
 .. |Docs| image:: https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat
