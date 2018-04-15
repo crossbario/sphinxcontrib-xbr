@@ -15,6 +15,10 @@ install:
 	pip install --no-cache --upgrade -e .
 	pip show sphinxcontrib-xbr
 
+publish: clean
+	python setup.py sdist bdist_wheel --universal
+	twine upload dist/*
+
 test:
 	tox .
 
